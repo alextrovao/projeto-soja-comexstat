@@ -1,0 +1,40 @@
+=== MODELAGEM ===
+Alvo: valor_mi (US$ milhões (FOB))
+Série: 2018-01 a 2026-10 (106 meses)
+Modelos: Referência: mesmo mês do ano anterior, Índice sazonal x nível recente, Suavização exponencial (log), Random Forest
+
+=== ERRO POR JANELA (WAPE, %; menor é melhor) ===
+janela                                 2023-11 a 2024-10  2024-11 a 2025-10  2025-11 a 2026-10
+modelo                                                                                        
+Referência: mesmo mês do ano anterior               26.5               18.3               14.5
+Índice sazonal x nível recente                      19.6               15.3               14.6
+Suavização exponencial (log)                        34.2               12.8               14.1
+Random Forest                                       42.2               21.8               18.2
+
+=== MÉDIA DAS JANELAS ===
+mae: erro médio absoluto em US$ milhões (FOB)
+erro_total_12m_%: viés do total de 12 meses (positivo = superestimou)
+                                       wape_%     mae  erro_total_12m_%
+modelo                                                                 
+Índice sazonal x nível recente           16.5   629.6               2.0
+Referência: mesmo mês do ano anterior    19.8   749.5               2.0
+Suavização exponencial (log)             20.4   777.5              10.1
+Random Forest                            27.4  1041.6               8.0
+
+Melhor modelo: Índice sazonal x nível recente. WAPE médio 16.5% contra 19.8% da referência: erro 16% menor.
+
+=== PREVISÃO DOS PRÓXIMOS 12 MESES (Índice sazonal x nível recente) ===
+2026-11-01    2046.7
+2026-12-01    1539.9
+2027-01-01     898.4
+2027-02-01    2699.6
+2027-03-01    6252.1
+2027-04-01    7226.7
+2027-05-01    7246.1
+2027-06-01    6483.3
+2027-07-01    5354.7
+2027-08-01    3995.2
+2027-09-01    2979.6
+2027-10-01    2627.4
+Freq: MS
+Total: 49,350 (US$ milhões (FOB))

@@ -1,0 +1,6 @@
+pandas
+requests
+matplotlib
+# Usadas só na etapa 2 (gráfico de decomposição) e na etapa 3. Opcionais:
+statsmodels
+scikit-learn

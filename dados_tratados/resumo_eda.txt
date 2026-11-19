@@ -1,0 +1,38 @@
+=== RESUMO GERAL ===
+Período: 2018-01 a 2026-10 (106 meses)
+Valor mensal médio: US$ 3,383 milhões
+Valor mensal mínimo: US$ 23 milhões (2021-01)
+Valor mensal máximo: US$ 8,116 milhões (2023-05)
+Preço médio implícito: US$ 442/t (mín. 333; máx. 631)
+Correlação entre valor e volume: 0.95
+
+=== TOTAIS POR ANO (US$ milhões / mil toneladas) ===
+      meses  valor_mi     mil_t  jan_ate_ult_mes_mi  var_vs_ano_ant_%
+ano                                                                  
+2018     12   33055.0   83257.8             29584.0               NaN
+2019     12   26077.2   74073.1             23078.3             -22.0
+2020     12   28564.1   82973.4             27931.8              21.0
+2021     12   38638.7   86109.8             35958.6              28.7
+2022     12   46558.5   78730.1             43812.6              21.8
+2023     12   53244.6  101869.9             48527.1              10.8
+2024     12   42949.8   98814.5             40977.6             -15.6
+2025     12   43536.0  108181.1             40209.6              -1.9
+2026     10   46023.3  106496.2             46023.3              14.5
+
+'jan_ate_ult_mes_mi' soma janeiro a out de cada ano,
+para comparar 2026 com os anos anteriores no mesmo período.
+
+=== ÍNDICE SAZONAL (1,00 = média do ano; anos completos) ===
+jan: 0.22
+fev: 0.66
+mar: 1.52
+abr: 1.76
+mai: 1.76
+jun: 1.58
+jul: 1.30
+ago: 0.97
+set: 0.72
+out: 0.64
+nov: 0.50
+dez: 0.37
+Meses mais fortes: mai, abr, jun
